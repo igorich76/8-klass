@@ -1,0 +1,10 @@
+var
+  st: string;
+  i: byte;
+  sum: integer;
+
+begin
+  st := 'БАЙТ'; 
+  for i := 1 to Length(st) do sum := sum + ord(st[i]); 
+  Writeln('Сумма кодов букв в заданном слове = ', sum);
+end.
