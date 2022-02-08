@@ -1,0 +1,10 @@
+program z_8;
+var a, b, c: integer;
+BEGIN
+ a:= random (100)+1;
+ b:= random (100)+101;
+ c:= random (50)+201;
+ writeln ('Для молодежи билет номер ', a);
+ writeln ('Для взрослых билет номер ', b);
+ writeln ('Для пенсионеров билет номер ', c);
+END.
