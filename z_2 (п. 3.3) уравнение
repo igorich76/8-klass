@@ -1,0 +1,10 @@
+var x:integer; y:real;
+begin
+ readln (x);
+ y:=x+2.5;
+ y:=y*x;
+ y:=y-1;
+ y:=y*x;
+ y:=y+1;
+ writeln (y);
+end.
