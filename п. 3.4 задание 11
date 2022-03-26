@@ -1,0 +1,8 @@
+// произвести обмен значений, если х>y
+##
+Println('Задача Обмен значениями м/у двумя переменными');
+var x:=ReadlnReal('Введите x>>');
+var y:=ReadlnReal('Введите y>>');
+if (x>y) then (x,y):=(y,x);
+Println('x=',x);
+Println('y=',y);
