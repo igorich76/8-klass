@@ -1,0 +1,7 @@
+##
+var y: integer;
+var x:= ReadlnInteger('Введите x>>');
+if x>0 then y:= 1;
+if x=0 then y:= 0;
+if x<0 then y:= -1;
+Print('y=',y);
