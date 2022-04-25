@@ -1,0 +1,15 @@
+program pr2;   //задание 2 на стр. 161 к параграфу 3.5
+var a,b,s:integer;
+begin
+  a:= 1;
+  b:= 2;
+  while a+b<8 do
+  begin
+    a:= a+1;
+    b:= b+2;
+  end;
+  s:= a+b;
+  Writeln('а= ',a);
+  Writeln('b= ',b);
+  Writeln('s= ',s);
+end.
