@@ -1,0 +1,12 @@
+program n_15;
+var i: integer; x: real;
+begin
+  Writeln('График тренировок');
+  i:= 1;
+  x:= 10;
+  repeat
+    i:= i+1;
+    x:= x+0.1*x;
+  until x>=25;
+  Writeln('Начиная с ', i ,'-го дня спортсмен будет пробегать 25 км')
+end.
