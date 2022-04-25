@@ -1,0 +1,18 @@
+program n_14;
+var x, y, q, r: integer;
+begin
+  Writeln('Частное и остаток');
+  Write('Введите делимое х>>');
+  Readln(x);
+  Write('Введите делитель y>>');
+  Read(y);
+  r:= x;
+  q:= 0;
+  while r>=y do
+  begin
+    r:= r-y;
+    q:= q+1
+  end;
+  Writeln('Частное q= ', q);
+  Writeln('Остаток r= ', r);
+end.
