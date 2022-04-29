@@ -1,0 +1,8 @@
+##
+var a, max: integer;
+max := a;   
+repeat
+  Readln(a); 
+  if (a >= max) and (a <> 0) then max := a;
+until a = 0;
+Print('Max=', max)
