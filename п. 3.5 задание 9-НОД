@@ -1,0 +1,18 @@
+//через while сделал наибольший общий делитель
+##
+var (a, b) := ReadlnInteger2('Введите два числа через пробел>>');
+while a <> b do
+  if a > b then a := a - b
+  else b := b - a; 
+  Print('НОД=',a);
+  
+ //через repeat:
+##
+var (a, b) := ReadlnInteger2('Введите два числа через пробел>>');
+repeat
+  while a <> b do
+    if a > b then a := a - b
+    else b := b - a;  
+until a = b;
+Print('НОД=', a);
+  
