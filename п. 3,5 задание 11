@@ -1,0 +1,8 @@
+##
+var s := 0;
+while s < 4 do
+begin
+  s := s + 1;  
+  Println('* * * * * * * *');
+  Println(' * * * * * * * ');
+end;
