@@ -1,0 +1,7 @@
+##
+var s := 0;
+while s < 10 do
+begin
+  s := s + 1;  
+  Println(s, 'Ф.И.О.');
+end;
