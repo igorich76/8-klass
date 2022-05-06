@@ -1,0 +1,10 @@
+//-a-// первый вариант
+##
+var n := ReadlnInteger('Введите количество чисел >>');
+var (a,s) := (0,0);
+for var i := 1 to n do
+begin
+  readln(a);
+  s := s + a;
+end;
+Println('сумма n первых чисел>>',s); 
