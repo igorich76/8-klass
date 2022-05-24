@@ -1,0 +1,8 @@
+##
+var s := 1;
+Println('2 в степени 0 = 1');
+for var i := 1 to 10 do
+begin
+  s := s * 2;
+  Println('2 в степени',i,'=',s);
+end;
