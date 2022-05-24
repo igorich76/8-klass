@@ -1,0 +1,11 @@
+##
+var (b, c) := (0, 0);
+for var i := 1 to 10 do
+begin
+  var a := Random(0, 21);
+  Print(a);
+  b += a;
+  c += 1;
+end;
+Println();
+Print('среднее арифметическое=',b / c);
